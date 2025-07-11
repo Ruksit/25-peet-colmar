@@ -1,0 +1,107 @@
+ /* nav */
+ .nav-desktop{
+    display: flex;
+    align-items: center;
+    padding:32px 0;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.nav-logo-text{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-logo-text{
+    margin-left: 24px;
+}
+.nav-logo-pic{
+    width: auto;
+    height: 3rem;
+}
+.nav-colmar-text,
+.nav-academy-text{
+    font-size: 2rem;
+}
+
+.nav-colmar-text{
+    font-weight: bold;
+    color: #282C37;
+    text-transform: uppercase;
+}
+
+.nav-academy-text{
+    font-weight: 00;
+    color: #B4B4B4;
+    text-transform: uppercase;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin-right: 24px;
+}
+/* header */
+.header-pic{
+    width: 60%;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.hero{
+    display: flex;
+    background-color: #D8D8D8;
+    align-items: center;
+
+}
+.main-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    color:#282C37
+}
+.heading-p{
+    font-weight: 400;
+    font-size:  2rem;
+    color:#282C37
+}
+
+.start-here-btn{
+
+    padding: 8px 150px ;
+    background-color: #4A4A4A;
+    color: white;
+
+}
+
+.main-heading,
+.heading-p,
+.start-here-btn{
+    margin-bottom: 35px;
+
+}
+
+/* information */
+.practice-left-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.practice-pic-main {
+    width: 60%;
+    margin:32px 24px;
+}
+
+.practice-right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.orientation .campus .guest {
+    display: flex;
+}
