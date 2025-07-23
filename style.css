@@ -15,6 +15,9 @@ body {
   margin: 0 auto;
 }
 
+
+
+
 /* Header Section */
 
 header {
@@ -34,6 +37,9 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+
+
+
 /* Hero Section */
 .hero {
   display: flex;
@@ -49,7 +55,7 @@ header {
 }
 
 .hero__content p {
-  font-size: 1.75;
+  font-size: 1.75rem;
   font-weight: 600;
   margin-bottom: 24px;
 }
@@ -61,6 +67,44 @@ header {
   background-color: #4a4a4a;
   padding: 16px;
   font-weight: 600;
+}
+
+/* Info Section */
+.info {
+  padding: 16px;
+}
+
+.info__main {
+  display: none;
+}
+
+.info__right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card__img--desktop {
+  display: none;
+}
+
+.card__content {
+  padding: 32px 16px;
+}
+
+.card__title {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.card__desc {
+  color: gray;
+  margin-bottom: 16px;
+}
+
+.card__link{
+  color: #30A9DE;
 }
 
 /* Desktop */
@@ -90,7 +134,7 @@ header {
   .nav--mobile {
     display: none;
   }
-}
+
 
 /* Hero Section */
 .hero {
@@ -106,4 +150,5 @@ header {
 }
 .hero__content {
   width: 40%;
+}
 }
