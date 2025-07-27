@@ -88,8 +88,8 @@ header {
 }
 
 .card__title {
-  font-size: 1.75rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 600;
   margin-bottom: 8px;
 }
 
@@ -100,6 +100,45 @@ header {
 
 .card__link {
   color: #30a9de;
+}
+
+/* Course Section */
+.courses{
+  padding: 32px 16px;
+}
+
+.section--title{
+  font-size: 1.85rem;
+  font-weight: 700;
+  text-align: center ;
+  margin-bottom: 16px;
+}
+
+.courses__grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.course--card{
+  background-color: #D8D8D8;
+  padding: 24px;
+}
+.course--card__img{
+  display: none;
+}
+
+.course--card__title{
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.course--card__type{
+  display: none;
+}
+
+.course--card__desc{
+  display: none;
 }
 
 /* Desktop */
@@ -172,6 +211,10 @@ header {
     font-weight: 300;
   }
 
+  .info__ref{
+    font-weight: 600;
+
+  }
   .info__right{
     width: 40%;
     gap: 16px;
@@ -207,4 +250,48 @@ header {
     font-size: 1.25rem;
     font-weight: 600;
   }
+
+  /* Course Section */
+  .courses{
+    background-color: #D8D8D8;
+    padding : 32px 72px;
+
+  }
+
+  .courses__grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+  }
+
+  .course--card{
+    background-color: white;
+  }
+
+  .course--card__img{
+    display: block;
+  }
+
+  .course--card__content{
+    padding : 16px;
+  }
+
+  .course--card__title{
+    font-size: 1.25rem ;
+    margin-bottom: 8px;
+  }
+
+  .course--card__type{
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 8px;
+  }
+
+  .course--card__desc{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+
 }
